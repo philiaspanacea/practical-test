@@ -4,24 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practical Test</title>
-    <link rel="stylesheet" href="css/index.css"
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <div>
+    <div class="menu">
       <div><h1>Place an Order</h1></div>
-      <div>
-        <p>Your Name:</p>
-        <input type="text" />
+      <div class="choices">
+        <div>
+          <p>Your Name:</p>
+          <input
+            class="name"
+            style="height: 30px; font-size: 17px; padding: 5px"
+            type="text"
+          />
+        </div>
+        <div>
+          <p>Item:</p>
+          <select
+            class="item"
+            style="height: 30px; font-size: 17px; padding: 5px"
+          >
+            <option value="2.50">Coffee</option>
+            <option value="3.00">Dark Coffee</option>
+            <option value="2.00">Decaf Coffee</option>
+          </select>
+        </div>
+        <div>
+          <p>Quantity:</p>
+          <input
+            class="qty"
+            style="height: 30px; font-size: 17px; padding: 5px"
+            type="number"
+          />
+        </div>
+        <div><button class="output">Order Now</button></div>
+        <div class="message"></div>
       </div>
-      <div>
-        <p>Item:</p>
-        <button>Dropdown Here</button>
-      </div>
-      <div>
-        <p>Quantity</p>
-        <input type="text" />
-      </div>
-      <div><button>Order Now</button></div>
     </div>
     <script src="js/script.js"></script>
   </body>

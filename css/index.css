@@ -1,0 +1,62 @@
+* {
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: antiquewhite;
+    display: block;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 80px;
+    height: 500px;
+    width: 500px;
+}
+
+.menu h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(168, 74, 45);
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    letter-spacing: 3px;
+}
+
+.choices {
+    display: block;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+}
+
+.choices * {
+    padding-bottom: 15px;
+    width: 350px;
+    border-radius: 30px;
+    border: none;
+}
+
+.choices p {
+    font-size: 20px;
+}
+
+.output {
+    margin-top: 35px;
+    padding: 10px;
+    height: 60px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(168, 74, 45);
+    color: white;
+}
+
+.output:hover {
+    background-color: rgb(145, 60, 34);
+}
